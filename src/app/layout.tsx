@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Variedades San Sebastián",
-    description: "Descubre nuestra variedad de regalos y detalles.",
+    description: "Descubre nuestra variedad de productos, regalos y detalles.",
     url: "https://variedades-san-sebastian.vercel.app", // Reemplaza con tu link de Vercel
     siteName: "Variedades San Sebastián",
     images: [
