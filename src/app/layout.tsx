@@ -14,11 +14,24 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Variedades San Sebastián",
-  description: "Variedad de Productos, Regalos y Detalles.",
+  description: "Regalos, peluches y detalles únicos para momentos especiales.",
+  icons: {
+    icon: "/image.png", // El iconito de la pestaña
+  },
   openGraph: {
     title: "Variedades San Sebastián",
-    description: "Encuentra gran variedad de productos, peluches y detalles que necesitas para el regalo perfecto hoy mismo.",
-    images: ["/image.png"], // Una foto linda de tu tienda
+    description: "Descubre nuestra variedad de regalos y detalles.",
+    url: "https://variedades-san-sebastian.vercel.app", // Reemplaza con tu link de Vercel
+    siteName: "Variedades San Sebastián",
+    images: [
+      {
+        url: "/image.png", // La imagen que creamos que aparecerá en WhatsApp
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: "es_CO",
+    type: "website",
   },
 };
 
